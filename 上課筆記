@@ -1,0 +1,21 @@
+# w2_0927
+# 57min 起手式
+
+a.madeelementById 
+# windows.document.madeelementById 
+# window.document.getElementById("header"); https://www.w3schools.com/js/js_window.asp
+
+b.cheerio
+
+# (一）https://www.cnblogs.com/zhongweiv/p/node_request_cheerio.html
+/*
+* 功能:   数据采集
+* 创建人: Wilson
+* 时间:   2015-07-29
+*/
+var request = require('request'),
+    cheerio = require('cheerio'), 
+    URL_36KR = 'http://36kr.com/',            //36氪
+    Proxy = require('./proxylist.js'); 
+  （二）https://andy6804tw.github.io/2018/02/11/nodejs-crawler/  
+    前言本篇文章教您如何使用Node.js 來爬蟲，這邊要使用到兩個函式庫，分別為request 跟cheerio，request 等同於ajax 作為撈取網頁資料的請求 ..    
