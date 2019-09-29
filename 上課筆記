@@ -18,4 +18,26 @@ var request = require('request'),
     URL_36KR = 'http://36kr.com/',            //36氪
     Proxy = require('./proxylist.js'); 
   （二）https://andy6804tw.github.io/2018/02/11/nodejs-crawler/  
-    前言本篇文章教您如何使用Node.js 來爬蟲，這邊要使用到兩個函式庫，分別為request 跟cheerio，request 等同於ajax 作為撈取網頁資料的請求 ..    
+    前言本篇文章教您如何使用Node.js 來爬蟲，這邊要使用到兩個函式庫，分別為request 跟cheerio，request 等同於ajax 作為撈取網頁資料的請求 ..  
+    
+---
+# https://jsfiddle.net
+// HTML
+<input type="text" id="name" value="hi">
+<button id="btn">送出</button>
+
+// 上課寫法
+$(document).ready(function(){
+    $(document).on('click','button#btn',function(){
+           let input = $('input#name');
+           alert(input.val());
+});
+});
+
+// 正常寫法
+// handle click and add class
+button.on("click", function(){
+  banner.addClass("alt")
+})
+
+---
